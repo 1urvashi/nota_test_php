@@ -1,4 +1,4 @@
-<?
+<?php
 
 function findFilesWithPattern($directory, $pattern, $extension) {
     $matchingFiles = [];
@@ -43,3 +43,4 @@ if (count($matchingFiles) > 0) {
 } else {
     echo "No matching files found in the directory.\n";
 }
+?>
